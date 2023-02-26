@@ -182,6 +182,7 @@ services:
         environment:
           - RP_EMAIL
           - RP_PASSWORD
+          - RP_API_KEY
         networks:
             default:
                 ipv4_address: 172.106.0.90
